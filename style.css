@@ -1,0 +1,102 @@
+.heading {
+    color:salmon;
+}
+.fon{
+    background-color:azure;
+}
+p{
+    font-size: 14px;
+}
+img[alt="Iphone"]{
+    border: 2px solid black;
+}
+.list{
+    list-style-type: none;
+}
+
+a:hove r{
+    color:darkorange;
+}
+a:active{
+    color:dimgrey;
+}
+div{
+}
+
+input[type="text"]{
+    color:cornflowerblue;
+}
+input[placeholder="Ваш номер телефона"]:focus{
+    color:darkblue;
+    background-color:gold;
+}
+input[type="tel"]:focus::-moz-placeholder {
+    color: blue;
+}
+
+input[type="text"]{
+    text-transform: capitalize;
+}
+input[type="tel"]{
+    text-transform: capitalize;
+}
+.table{
+    border: 1px solid #000;
+    height:100px;
+    width:300px;
+    border-collapse: collapse;
+    
+}
+.table td{
+    text-align: center;
+    border: 1px solid #000;
+}
+.head{
+    height:100px;
+}
+.tlogo {
+    padding:10px;
+}
+.index li{
+    display: inline;
+}
+.conteiner{
+    width:400px;
+    margin: 0 auto;
+}
+.footer{
+    height: 40px;
+    text-align: end;
+    background-color:azure;
+}
+.iphone{
+    float: left;
+    margin-right:5px;
+}
+.desc{
+    padding-top: 5px; 
+    clear:both;
+    background-color;
+}
+.conteiner{
+    position: absolute;
+    width:500px;
+    margin: 0 auto;
+}
+.button {
+    height: 25px;
+    width: 60px;
+    outline: 1px solid gray;
+    position: relative;
+    left: 550px;
+    bottom: 68px;
+    text-align: center;
+    background-color: bisque;
+    color:black;
+}
+.button_2{
+ bottom: 32px;
+}
+.button:active{
+    background-color: aqua;
+}
